@@ -1,9 +1,12 @@
 const cacheNamePWA = "my-pwa-app-v1"
 const files_to_cache = [
   "/index.html",
-  "/page.html",
+  "/page_deux.html",
+  "/page_trois.html",
   "/css/style.css",
   "/js/script.js",
+  "/images/happy.gif",
+  "/images/left-arrow.png",
 ]
 
 self.addEventListener("install", installEvent => {
