@@ -1,0 +1,19 @@
+{
+  "name": "My progressive web app",
+  "short_name": "My PWA",
+  "start_url": "index.html",
+  "display": "standalone",
+  "background_color": "#fdfdfd",
+  "theme_color": "#db4938",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "/icons/wind_192.png",
+      "type": "image/png", "sizes": "192x192"
+    },
+    {
+      "src": "/icons/wind_512.png",
+      "type": "image/png", "sizes": "512x512"
+    }
+  ]
+}
