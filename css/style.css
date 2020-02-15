@@ -3,15 +3,20 @@ body {
   height: 100vh;
 } 
 
+.app-go-back {
+  display: none;
+}
+
 .container {
   height: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
 }
 
 h1 {
-  
+  color:red;
   align-self: center;
   text-align: center;
 }
@@ -32,3 +37,20 @@ h1 a {
   background: no-repeat url('https://media.giphy.com/media/NXp9HM6YeuS0U/giphy.gif');
   
 }
+
+
+@media (max-width: 800px) {
+
+  .app-go-back {
+    display: inline-block;
+    position: absolute;
+    top: 20px;
+    left: 40px;
+  }
+
+
+  .container {
+    width: 400px;
+  }
+
+ }
