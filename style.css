@@ -1,0 +1,17 @@
+
+body {
+  height: 100vh;
+} 
+
+.container {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  color:red;
+  align-self: center;
+  text-align: center;
+}
