@@ -26,14 +26,14 @@ h1 a {
   color:red;
 }
 
-/* .gif {
+.div-gif {
   align-self: center;
   text-align: center;
-} */
+}
 
 
 
-@media (max-width: 800px) {
+@media (max-width: 400px) {
 
   .app-go-back {
     display: inline-block;
@@ -42,10 +42,35 @@ h1 a {
     left: 40px;
   }
 
-  .gif {
-    width: 60%;
-    height: auto;
+  .app-go-back:hover {
+    color:rgb(255, 38, 38);
   }
+  
+  .container {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  h1 {
+    color:red;
+    align-self: center;
+    text-align: center;
+  }
+  
+  h1 a {
+    text-decoration: none;
+    color:red;
+  }
+  
+  .my-gif {
+    width: 80%;  
+  }
+  
+
+
 
   
 
