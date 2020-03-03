@@ -1,0 +1,28 @@
+/* fonts */
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+
+
+/* css variables */
+@import '../css/custom/var.css';
+/* navbar  */
+@import '../css/custom/navbar.css';
+/* header  */
+@import '../css/custom/header.css';
+/* presentation-skills  */
+@import '../css/custom/presentation-skills.css';
+/* projects  */
+@import '../css/custom/projects.css';
+/* contact  */
+@import '../css/custom/contact.css';
+/* footer  */
+@import '../css/custom/footer.css';
+
+.main-style-for-btn {
+  border-radius: 20px;
+  background-color: white;
+  border: 2px solid var(--main-color);
+  box-shadow: none;
+  color: var(--main-color);
+}
+
+

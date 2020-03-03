@@ -1,0 +1,6 @@
+@import '../custom/var.css';
+
+#my-profile-pic {
+  height: auto;
+  width: 150px;
+}

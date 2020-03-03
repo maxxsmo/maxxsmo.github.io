@@ -1,0 +1,12 @@
+@import '../custom/var.css';
+
+.card-reaveal-btn-container {
+  display: flex;
+  justify-content: center;
+}
+
+.btn-container {
+  display: flex;
+  justify-content: center;
+}
+

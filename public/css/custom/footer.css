@@ -1,0 +1,5 @@
+@import '../custom/var.css';
+
+.page-footer {
+  background-color: var(--main-color) !important;
+}

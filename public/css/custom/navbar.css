@@ -1,0 +1,27 @@
+@import '../css/custom/var.css';
+
+nav {
+  background-color: white;
+  box-shadow: none !important;
+}
+
+#nav-mobile > li > a, a.brand-logo {
+  color: var(--main-color) !important;
+  font-family: 'Montserrat', sans-serif;
+}
+
+/* #nav-mobile > li:nth-child(2) > a {
+  border-radius: 20px;
+  background-color: white;
+  border: 2px solid var(--main-color);
+  box-shadow: none;
+} */
+
+a.brand-logo {
+  margin-left: 20px;
+  font-weight: bold;
+}
+
+#nav-mobile > li:nth-child(3) {
+  margin-right: 20px;
+}

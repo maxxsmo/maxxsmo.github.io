@@ -1,0 +1,45 @@
+@import '../custom/var.css';
+
+/* PRESENTATION SECTION */
+
+.presentation-section {
+  background-color: var(--main-color);
+}
+
+div.presentation-section > div > h1,
+div.presentation-section > div > p {
+  color: white;
+}
+
+/* SKILLS SECTION */
+
+.row-skill-container {
+  margin: 0 30px;
+}
+
+.skill-container {
+  border: 1px solid grey;
+}
+
+.skill-icon-container {
+  display: flex;
+  justify-content: center;
+}
+
+
+
+.skill-icon {
+  width: 30px !important;
+  height: auto !important;
+}
+
+
+div.content-col >  div.sub-section-col > .subtitle-col {
+  color: var(--main-color);
+}
+
+
+.btn-container {
+  display: flex;
+  justify-content: center;
+}
