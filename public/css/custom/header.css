@@ -1,6 +1,14 @@
 @import '../custom/var.css';
 
+.header-container {
+  height: 90vh;
+}
+
+.header-content {
+  padding-top: 100px;
+}
+
 #my-profile-pic {
   height: auto;
-  width: 150px;
+  width: 220px;
 }

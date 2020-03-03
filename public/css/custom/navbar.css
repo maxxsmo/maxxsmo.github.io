@@ -5,6 +5,12 @@ nav {
   box-shadow: none !important;
 }
 
+.brand-logo img {
+  width: auto;
+  height: 50px;
+  vertical-align: middle;
+}
+
 #nav-mobile > li > a, a.brand-logo {
   color: var(--main-color) !important;
   font-family: 'Montserrat', sans-serif;

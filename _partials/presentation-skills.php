@@ -7,7 +7,7 @@
 <div class="skills-section">
   <div class="row-skill-container">
     <div class="row">
-      <div class="col s12 m4 skill-container center-align">
+      <div class="col s12 m4 skill-container  center-align">
         <div class="skill-icon-container">
           <img src="public/images/icons/web-programming.png" class="skill-icon">
         </div>

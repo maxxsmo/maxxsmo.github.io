@@ -4,6 +4,12 @@
 
 .presentation-section {
   background-color: var(--main-color);
+  height: 600px;
+  padding-top: 50px;
+  margin-bottom: -150px;
+  position: relative;
+  z-index: -1;
+  
 }
 
 div.presentation-section > div > h1,
@@ -13,12 +19,32 @@ div.presentation-section > div > p {
 
 /* SKILLS SECTION */
 
+.skill-section {
+  background-color: var(--main-color);
+}
 .row-skill-container {
   margin: 0 30px;
+  
+}
+
+body > div.skills-section > div.row-skill-container > div > div:nth-child(1) {
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
+}
+
+body > div.skills-section > div.row-skill-container > div > div:nth-child(2) {
+  border-right: none;
+  border-left: none;
+}
+
+body > div.skills-section > div.row-skill-container > div > div:nth-child(3) {
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
 }
 
 .skill-container {
-  border: 1px solid grey;
+  border: 1px solid lightgrey;
+  background-color: white;
 }
 
 .skill-icon-container {
@@ -29,8 +55,9 @@ div.presentation-section > div > p {
 
 
 .skill-icon {
-  width: 30px !important;
+  width: 70px !important;
   height: auto !important;
+  padding-top: 20px;
 }
 
 

@@ -2,4 +2,5 @@
 
 .page-footer {
   background-color: var(--main-color) !important;
+  padding-top: 100px;
 }
