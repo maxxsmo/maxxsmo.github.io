@@ -5,6 +5,6 @@
   </div>
    
   <div class="center-align">
-    <img src="public/images/profile/boy.png" alt="my profile picture" id="my-profile-pic">
+    <img src="public/images/profile/avatar.png" alt="my profile picture" id="my-profile-pic">
   </div>
 </div>

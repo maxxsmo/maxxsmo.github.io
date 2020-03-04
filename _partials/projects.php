@@ -33,7 +33,7 @@
     <div class="col s12 m4">
       <div class="card">
         <div class="card-image waves-effect waves-block waves-light">
-          <img class="activator" src="public/images/projects/festroad.png">
+          <img class="activator" src="public/images/projects/monpotejack.png">
         </div>
         <div class="card-reveal">
           <span class="card-title grey-text center-align"><i class="material-icons grey-text right">close</i></span>
