@@ -30,9 +30,14 @@ nav {
 
 a.brand-logo {
   margin-left: 20px;
-  font-weight: bold;
 }
 
 #nav-mobile > li:nth-child(3) {
   margin-right: 20px;
+}
+
+@media (max-width: 601px) { 
+  a.brand-logo {
+    margin-left: 0px;
+  }
 }
