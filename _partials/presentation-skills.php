@@ -1,9 +1,10 @@
 <div class="presentation-section">
   <div class="container">
-    <h1 class="center-align">hello, Je m'appelle Maxime, enchanté!</h1>
+    <h1 class="center-align presentation-title">hello, Je m'appelle Maxime, enchanté!</h1>
     <p class="center-align">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
-  </div>
+  </div>   
 </div>
+
 <div class="skills-section">
   <div class="row-skill-container">
     <div class="row">
@@ -90,9 +91,4 @@
 
     </div> <!--  end row -->
   </div> <!--  end skills container -->
-  <div class="row">
-    <div class="btn-container">
-      <a href="#" class="btn main-style-for-btn">some button</a>
-    </div>
-  </div>
 </div> <!--  end skills section -->

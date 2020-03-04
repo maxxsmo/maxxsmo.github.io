@@ -10,7 +10,7 @@
     <link type="text/css" rel="stylesheet" href="public/css/materialize.min.css"  media="screen,projection"/>
     <!-- stylesheet-->
     <link rel="stylesheet" type="text/css" href="public/css/style.css" />
-            
+    
     <title>Maxime Smolis | Developpeur Web</title>
   </head>
   <body>
@@ -32,6 +32,8 @@
 
   <!--JavaScript at end of body for optimized loading-->
   <script type="text/javascript" src="public/js/materialize.min.js"></script>
+  <!-- fontaweome cdn -->
+  <script src="https://kit.fontawesome.com/bf901c76ce.js" crossorigin="anonymous"></script>
   <script type="text/javascript" src="public/js/script.js"></script>
   </body>
 </html>

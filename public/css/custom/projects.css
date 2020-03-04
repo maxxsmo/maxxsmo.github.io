@@ -12,9 +12,23 @@
 
 .project-container {
   margin: 0 18.75px;
+  height: 37.5em;
+  padding-top: 6.25em;
 }
 
 .card {
   border-radius: 15px !important;
   overflow: hidden;
 }
+
+.projects-title {
+  margin-bottom: 60px;
+}
+
+@media (max-width: 601px) { 
+  .project-container {
+    height: 950px;
+  }
+}
+
+

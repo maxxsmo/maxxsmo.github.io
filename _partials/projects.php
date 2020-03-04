@@ -1,5 +1,6 @@
-<h1 class="center-align">Quelques projets</h1>
+
 <div class="project-container">
+<h2 class="center-align projects-title">Quelques projets</h2>
   <div class="row ">
     <div class="col s12 m4">
       <div class="card">
@@ -43,10 +44,5 @@
         </div>
       </div>
     </div>
-  </div>
-</div>
-<div class="row">
-  <div class="btn-container">
-    <a href="#" class="btn main-style-for-btn">some button</a>
   </div>
 </div>

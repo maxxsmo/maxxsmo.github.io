@@ -17,12 +17,6 @@
 /* footer  */
 @import '../css/custom/footer.css';
 
-.main-style-for-btn {
-  border-radius: 20px;
-  background-color: white;
-  border: 2px solid var(--main-color);
-  box-shadow: none;
-  color: var(--main-color);
-}
+
 
 

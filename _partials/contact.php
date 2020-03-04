@@ -1,6 +1,6 @@
 <div class="contact-container">
-<span class="center-align"><p>faire un projet ensemble</p></span>
-<span class="center-align"><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus atque veritatis, autem doloremque.</p></span>
-<span class="btn-flex-cta"><a href="#" class="btn contact-btn">on y va</a></span>
+  <span class="center-align"><p>Faire un projet <br> ensemble</p></span>
+  <span class="center-align"><p>Interessé à travailler ensemble ? Je suis à l'écoute de toute nouvelle opportunité</p></span>
+  <span class="btn-flex-cta"><a href="#" class="btn btn-large contact-btn">on y va</a></span>
 
 </div>
