@@ -3,7 +3,9 @@
 nav {
   background-color: white;
   box-shadow: none !important;
+  padding-top: 10px;
 }
+
 
 .brand-logo img {
   width: auto;
