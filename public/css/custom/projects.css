@@ -5,13 +5,10 @@
   display: none;
   position: absolute;
   top: 45%; left: 43%;
-  z-index: 1;
+
 }
 
 .card .card-image {
-  
-position: relative;
- z-index: 10;
  opacity: 1;
  transition: .5s ease;
  background-color: rgba(0, 0, 0, 0.945);
@@ -19,7 +16,7 @@ position: relative;
 }
 
 .card:hover .card-image {
-  opacity: 0.65;
+  opacity: 0.9;
 }
 
 
