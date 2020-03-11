@@ -33,17 +33,18 @@ div.presentation-section > div > p {
 }
 
 
-body > div.skills-section > div.row-skill-container > div > div:nth-child(1) {
+
+#presentation-skills > div.skills-section > div > div > div:nth-child(1) {
   border-top-left-radius: 15px;
   border-bottom-left-radius: 15px;
 }
 
-body > div.skills-section > div.row-skill-container > div > div:nth-child(2) {
+#presentation-skills > div.skills-section > div > div > div:nth-child(2) {
   border-right: 1px solid lightgrey;
   border-left: 1px solid lightgrey;
 }
 
-body > div.skills-section > div.row-skill-container > div > div:nth-child(3) {
+#presentation-skills > div.skills-section > div > div > div:nth-child(3) {
   border-top-right-radius: 15px;
   border-bottom-right-radius: 15px;
 }
@@ -99,8 +100,8 @@ div.content-col >  div.sub-section-col > .subtitle-col {
   }
 
   body > div.skills-section > div.row-skill-container > div > div:nth-child(1) {
-    border-top-left-radius: 15px;
-    border-top-right-radius: 15px;
+    border-top-left-radius: 15px !important;
+    border-top-right-radius: 15px !important;
   }
 
   body > div.skills-section > div.row-skill-container > div > div:nth-child(3) {

@@ -18,5 +18,7 @@
 @import '../css/custom/footer.css';
 
 
-
+body {
+  background-color: whitesmoke;
+}
 

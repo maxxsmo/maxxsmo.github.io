@@ -1,7 +1,7 @@
 @import '../css/custom/var.css';
 
 nav {
-  background-color: white;
+  background-color: whitesmoke;
   box-shadow: none !important;
   padding-top: 10px;
 }
@@ -14,13 +14,14 @@ nav {
 }
 
 #nav-mobile > li > a, a.brand-logo {
-  color: var(--main-color) !important;
+  color: grey !important;
   font-family: 'Montserrat', sans-serif;
 }
 
 #nav-mobile > li:nth-child(3) > a {
   border-radius: 20px;
-  background-color: white;
+  background-color: whitesmoke;
+  color: var(--main-color) !important;
   border: 2px solid var(--main-color);
   box-shadow: none;
 }
