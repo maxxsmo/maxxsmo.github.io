@@ -17,6 +17,7 @@ div.presentation-section > div > p {
   color: white;
 }
 
+
 /* SKILLS SECTION */
 
 .skill-section {
@@ -33,18 +34,17 @@ div.presentation-section > div > p {
 }
 
 
-
-#presentation-skills > div.skills-section > div > div > div:nth-child(1) {
-  border-top-left-radius: 15px;
-  border-bottom-left-radius: 15px;
+#body > div.skills-section > div > div > div:nth-child(1) {
+  border-top-left-radius: 15px !important;
+  border-bottom-left-radius: 15px !important;
 }
 
-#presentation-skills > div.skills-section > div > div > div:nth-child(2) {
+#body > div.skills-section > div > div > div:nth-child(2) {
   border-right: 1px solid lightgrey;
   border-left: 1px solid lightgrey;
 }
 
-#presentation-skills > div.skills-section > div > div > div:nth-child(3) {
+#body > div.skills-section > div > div > div:nth-child(3) {
   border-top-right-radius: 15px;
   border-bottom-right-radius: 15px;
 }
@@ -59,7 +59,12 @@ div.presentation-section > div > p {
   justify-content: center;
 }
 
-
+#presentation-skills > div.skills-section > div > div > div > div.title-col > h2 {
+  color: #324B4F;
+}
+#presentation-skills > div.skills-section > div > div > div > div.title-col > div > p {
+  margin: 37px 0 !important;
+}
 
 .skill-icon {
   width: 70px !important;
@@ -69,7 +74,9 @@ div.presentation-section > div > p {
 
 
 div.content-col >  div.sub-section-col > .subtitle-col {
-  color: var(--main-color);
+  color: #324B4F;
+  font-size: 2.2em;
+  margin-bottom: 1em;
 }
 
 
@@ -99,20 +106,38 @@ div.content-col >  div.sub-section-col > .subtitle-col {
     height: 750px;
   }
 
-  body > div.skills-section > div.row-skill-container > div > div:nth-child(1) {
+  #presentation-skills > div.skills-section > div > div > div:nth-child(1) {
     border-top-left-radius: 15px !important;
     border-top-right-radius: 15px !important;
+    padding: 25px 0px !important;
   }
+  
 
-  body > div.skills-section > div.row-skill-container > div > div:nth-child(3) {
+  #presentation-skills > div.skills-section > div > div > div:nth-child(3) {
     border-bottom-left-radius: 15px;
     border-bottom-right-radius: 15px;
+    padding: 25px 0px !important;
   }
 
-  body > div.skills-section > div.row-skill-container > div > div:nth-child(2) {
+  #presentation-skills > div.skills-section > div > div > div:nth-child(2) {
     border-right: none;
     border-left: none;
     border-top: 1px solid lightgrey;
     border-bottom: 1px solid lightgrey;
+    padding: 25px 0px !important;
   }
+}
+
+.checked {
+  color: var(--main-color);
+}
+
+
+
+.fa-star-half{
+  color: var(--main-color);
+}
+
+#presentation-skills > div.skills-section > div > div > div > div.title-col > h2 {
+  hyphens: auto;
 }

@@ -13,3 +13,7 @@ span i {
 #logo-footer {
   color: white;
 }
+
+#footer > footer > div.container > div > div > span > a{
+  color: white !important;
+}

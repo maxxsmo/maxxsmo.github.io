@@ -20,5 +20,10 @@
 
 body {
   background-color: whitesmoke;
+  font-family: 'Playfair Display', serif;
+
 }
 
+p {
+  font-size: 1.2em;
+}
