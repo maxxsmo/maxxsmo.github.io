@@ -13,12 +13,12 @@ nav {
   vertical-align: middle;
 }
 
-#nav-mobile > li > a, a.brand-logo {
+#nav-mobile > li > a, a.brand-logo, #drop {
   color: grey !important;
   font-family: 'Montserrat', sans-serif;
 }
 
-#nav-mobile > li:nth-child(3) > a {
+#nav-mobile > li:nth-child(4) > a {
   border-radius: 20px;
   background-color: whitesmoke;
   color: var(--main-color) !important;
@@ -26,7 +26,7 @@ nav {
   box-shadow: none;
 }
 
-#nav-mobile > li:nth-child(3) > a:hover {
+#nav-mobile > li:nth-child(4) > a:hover {
   background-color: var(--main-color);
   color: white !important;
 }
@@ -44,3 +44,4 @@ a.brand-logo {
     margin-left: 0px;
   }
 }
+
