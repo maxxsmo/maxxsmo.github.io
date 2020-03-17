@@ -129,6 +129,9 @@ div.content-col >  div.sub-section-col > .subtitle-col {
     border-bottom: 1px solid lightgrey;
     padding: 25px 0px !important;
   }
+  body > div.skills-section > div > div > div > div.title-col > h2 {
+    hyphens: auto;
+  }
 }
 
 .checked {
